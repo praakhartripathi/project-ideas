@@ -1,0 +1,43 @@
+# Project: Grocery Tracker
+
+Build a personal grocery and vegetables reminder app 
+for **your favorite platform: android/ios/mac/win/linux/web**.
+
+The app should let me add items (like rice, oil, onions, tomatoes, etc.) 
+along with the quantity I purchased. 
+
+Based on my usage, the app should automatically calculate when 
+those items will run out and remind me before running out.
+
+The app is offline-first.
+
+The app should save all data locally. Using a local SQLite database (android). 
+It should track purchase history and estimate how many days each item usually lasts. 
+Using this data, the app should predict the next time I’ll need to buy that item again.
+
+Features I want:
+- Add grocery/vegetable items with name, quantity, unit (kg, litres, etc.)
+- Save each purchase with date & quantity
+- Track current quantity
+- Automatically estimate daily usage
+- Predict when an item will run out
+- Show a "To Buy Soon" list
+- Give reminders/notifications before the item finishes
+- Run background checks even if the app is closed
+- Everything works offline (data saved locally on device)
+
+Technologies I'm planning to use (android):
+- React Native (Bare Workflow)
+- SQLite for local storage
+- Notifee for notifications
+- react-native-background-fetch for background reminders
+
+The goal is to have a simple, smart, offline grocery assistant 
+that helps me remember when to buy items before they finish.
+
+----
+
+### Questions
+
+1. What existings apps have you tried?
+2. What would this app do uniquely?
