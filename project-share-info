@@ -1,0 +1,38 @@
+# Project: Share Info
+
+## Goals:
+
+1. **Share information accurately, and quickly.**
+2. Use QR codes (technical goal: learning, skill building, resume padding...)
+
+## Flows
+
+### User readies the information for sharing: create QR code
+
+1. User enters their information:
+    1. name
+    2. email
+    3. phone number
+    4. office address
+    5. youtube channel, instagram handle, ...
+    6. ...
+    7. whatever data they want to share...
+2. Create a QR code of it.
+
+### Reading others' information: reading QR code
+
+1. Point camera to other user's QR code
+2. App will read it
+3. App will store it with timestamp, and possibly (if permitted) with location
+
+---
+
+## Use Case 1
+
+Suppose I go to a networking event, or a meetup, and I want to share my information
+with others, and I want to remember or hold on to their information. This needs to be
+fast, and accurate and hassle free.
+
+I can write down, but handwriting might cause issues. And it is slow.
+
+Using tech I would like to do that fast and properly.
