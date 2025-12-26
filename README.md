@@ -1,5 +1,11 @@
 # project-ideas
 
+## Detailed Projects
+
+- [project-grocery-tracker](./project-grocery-tracker)
+- [project-share-info](./project-share-info)
+- [project-tic-tac-toe](./project-tic-tac-toe)
+
 ## Backend Development Project Ideas
 
 ### Beginner Level
