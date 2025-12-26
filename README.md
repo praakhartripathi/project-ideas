@@ -6,6 +6,13 @@
 - [project-share-info](./project-share-info)
 - [project-tic-tac-toe](./project-tic-tac-toe)
 
+## B2B SAS Ideas
+
+* Multi-Tenant SaaS Platform
+* RBAC as a Service
+* Payment Gateway / Billing SaaS
+* Audit Log & Compliance SaaS
+
 ## Backend Development Project Ideas
 
 ### Beginner Level
