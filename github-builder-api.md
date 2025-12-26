@@ -1,43 +1,44 @@
 
-
 # GitHub Builder API
 
-##  Project Description
+## Project Description
 
-**GitHub Builder API** is a **Spring Boot–based DevOps automation backend service** that allows users to provide a GitHub repository URL and automatically:
+GitHub Builder API is a Spring Boot–based DevOps automation backend service that allows users to provide a GitHub repository URL and automatically:
 
-1. **Clone the repository**
-2. **Detect and build Java projects** (Maven/Gradle)
-3. **Generate build artifacts (JAR/WAR)**
-4. **Store build output in two locations**:
+1. Clone the repository
+2. Detect and build Java projects using Maven or Gradle
+3. Generate build artifacts such as JAR or WAR files
+4. Store build output in two locations:
 
    * Internal server storage
    * User-defined destination path
 
-The API is designed to act as a **mini CI/CD build service**, enabling automated builds without any UI, fully testable using tools like `curl` or Postman.
+The API is designed to function as a lightweight CI/CD build service. It operates without any user interface and can be fully tested using tools such as curl or Postman.
 
 ---
 
-##  What This Project Does (Simple Words)
+## What This Project Does 
 
-* Takes a **GitHub repo link**
-* Downloads the code
+* Accepts a GitHub repository link
+* Downloads the source code
 * Builds the Java project
-* Copies the build wherever the user wants
+* Copies the generated build output to a location specified by the user
 
 ---
 
-##  Key Features
+## Key Features
 
-*  GitHub repository cloning
-*  Automated Java build execution
-*  Artifact management (JAR/WAR)
-*  Dual output distribution
-*  Modular Spring Boot architecture
-*  API-only (no frontend)
-*  Path & process safety handling (basic)
+* GitHub repository cloning
+* Automated Java build execution
+* Artifact generation and management (JAR/WAR)
+* Dual output distribution
+* Modular Spring Boot architecture
+* API-only backend service
+* Basic path and process safety handling
 
 ---
+
+## High-Level Workflow
 
 ```
 Client (curl/Postman)
@@ -56,44 +57,50 @@ GitHub Builder API
 ```
 
 ---
-orkflow (Step-by-Step)
 
-1️⃣ User sends GitHub repository URL
-2️⃣ API clones repo using Git operations
-3️⃣ API detects Java build configuration
-4️⃣ Build process is executed
-5️⃣ Artifacts are generated
-6️⃣ Artifacts are copied:
+## Workflow (Step-by-Step)
 
-* Internally (for system use)
-* To user-defined path
+1. The user sends a GitHub repository URL
+2. The API clones the repository using Git operations
+3. The build configuration is detected (Maven or Gradle)
+4. The build process is executed
+5. Build artifacts are generated
+6. Artifacts are copied:
 
----
-
-##  Tech Stack
-
-* **Backend:** Spring Boot (Java)
-* **Git Integration:** JGit
-* **Build Tools:** Maven / Gradle
-* **File Handling:** Java NIO
-* **Testing:** curl / Postman
+   * To internal storage for system use
+   * To a user-defined destination path
 
 ---
 
-##  Difficulty Level
+## Tech Stack
 
-* **Level:** Medium → Hard
-* **Category:** DevOps Automation / Build Tooling API
+* Backend: Spring Boot (Java)
+* Git Integration: JGit
+* Build Tools: Maven, Gradle
+* File Handling: Java NIO
+* Testing: curl, Postman
 
 ---
 
-##  Future Enhancements
+## Difficulty Level
 
-* Async builds
+* Level: Medium to Hard
+* Category: DevOps Automation / Build Tooling API
+
+---
+
+## Future Enhancements
+
+* Asynchronous build execution
 * Build log streaming
-* Docker-based sandbox builds
-* Authentication & rate limiting
+* Docker-based sandboxed builds
+* Authentication and rate limiting
 * Build status tracking
-* Artifact download API
+* Artifact download endpoints
 
 ---
+
+* Prepare interview explanation answers
+* Create API documentation format
+
+Just tell me what you want next.
